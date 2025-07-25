@@ -55,3 +55,29 @@ html, body {
 }
 
 /* HTML | BODY | ROOT | ↑ */
+
+.header {
+    background-color: var(--cerulean100);
+}
+
+.section-1 {
+    height: 656px;
+}
+
+.section-2 {
+    height: 656px;
+    background-color: var(--cerulean500);
+}
+
+.section-3 {
+    height: 656px;
+}
+
+.section-4 {
+    height: 656px;
+    background-color: var(--cerulean500);
+}
+
+.footer {
+    background-color: var(--cerulean100);
+}
