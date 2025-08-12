@@ -205,7 +205,6 @@ html, body {
     font-weight: bold;
     color: var(--neutralgray);
     background-color: var(--cerulean600);
-    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
@@ -220,6 +219,12 @@ html, body {
 @media only screen and (min-width: 600px) {
     .headline-section-content {
         max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .headline-anchor {
+        max-width: 360px;
     }
 }
 
@@ -283,7 +288,6 @@ html, body {
     font-weight: bold;
     color: var(--neutralgray);
     background-color: var(--cerulean600);
-    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
@@ -301,6 +305,12 @@ html, body {
         max-width: 600px;
     }
 
+}
+
+@media only screen and (min-width: 600px) {
+    .hero-anchor {
+        max-width: 360px;
+    }
 }
 /* HERO SECTION ↑ */
 
@@ -370,7 +380,6 @@ html, body {
     font-weight: bold;
     color: var(--neutralgray);
     background-color: var(--cerulean600);
-    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
@@ -385,6 +394,12 @@ html, body {
 @media only screen and (min-width: 600px) {
     .benefits-section-content {
         max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .benefits-anchor {
+        max-width: 360px;
     }
 }
 
@@ -444,7 +459,6 @@ html, body {
     font-weight: bold;
     color: var(--neutralgray);
     background-color: var(--cerulean600);
-    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
@@ -459,6 +473,12 @@ html, body {
 @media only screen and (min-width: 600px) {
     .who-section-content {
         max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .who-anchor {
+        max-width: 360px;
     }
 }
 
@@ -530,7 +550,6 @@ html, body {
     font-weight: bold;
     color: var(--neutralgray);
     background-color: var(--cerulean600);
-    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
@@ -545,6 +564,12 @@ html, body {
 @media only screen and (min-width: 600px) {
     .social-section-content {
         max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .social-anchor {
+        max-width: 360px;
     }
 }
 
@@ -599,7 +624,6 @@ html, body {
     font-weight: bold;
     color: var(--neutralgray);
     background-color: var(--cerulean600);
-    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
@@ -617,6 +641,12 @@ html, body {
         max-width: 600px;
     }
 
+}
+
+@media only screen and (min-width: 600px) {
+    .meet-anchor {
+        max-width: 360px;
+    }
 }
 
 /* MEET SECTION ↑ */
