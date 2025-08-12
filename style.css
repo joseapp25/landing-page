@@ -48,6 +48,7 @@
 }
 
 html, body {
+    color: var(--petroleum500);
     background-color: var(--neutralgray);
     font-family: var(--font-grotesk);
     scroll-behavior: smooth;
@@ -134,8 +135,8 @@ html, body {
     position: relative;
     margin-top: 80px;
     border-radius: 10px;
-    background-image: linear-gradient(100deg, var(--cerulean800), var(--cerulean600));
-    box-shadow: 0px 0px 8px var(--cerulean900);
+    background-image: linear-gradient(100deg, var(--cerulean200), var(--cerulean300));
+    box-shadow: 0px 0px 8px var(--cerulean300);
 }
 
 .headline-poster img {
@@ -169,7 +170,6 @@ html, body {
 /* HEADLINE SECTION ↓ */
 
 .headline-section {
-    color: var(--petroleum500);
     padding-bottom: 80px;
 }
 
@@ -196,24 +196,24 @@ html, body {
 
 .headline-anchor {
     margin-top: 32px;
-    font-size: 16px;
+    font-size: 24px;
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
     font-weight: bold;
-    color: var(--petroleum500);
-    background-color: var(--cerulean200);
-    width: 264px;
+    color: var(--neutralgray);
+    background-color: var(--cerulean600);
+    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
 }
 
 .headline-anchor:hover {
-    background-color: var(--cerulean400);
-    box-shadow: 0px 0px 8px var(--cerulean600);
+    background-color: var(--cerulean800);
+    box-shadow: 0px 0px 8px var(--cerulean800);
     transition-duration: 0.2s;
 }
 
@@ -237,8 +237,7 @@ html, body {
 /* HERO SECTION ↓ */
 
 .hero-section {
-    color: var(--neutralgray);
-    background-color: var(--cerulean900);
+    background-color: var(--cerulean100);
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -275,24 +274,24 @@ html, body {
 
 .hero-anchor {
     margin-top: 32px;
-    font-size: 16px;
+    font-size: 24px;
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
     font-weight: bold;
-    color: var(--petroleum500);
-    background-color: var(--cerulean200);
-    width: 264px;
+    color: var(--neutralgray);
+    background-color: var(--cerulean600);
+    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
 }
 
 .hero-anchor:hover {
-    background-color: var(--cerulean400);
-    box-shadow: 0px 0px 8px var(--cerulean600);
+    background-color: var(--cerulean800);
+    box-shadow: 0px 0px 8px var(--cerulean800);
     transition-duration: 0.2s;
 }
 
@@ -317,7 +316,6 @@ html, body {
 /* BENEFITS-SECTION ↓ */
 
 .benefits-section {
-    color: var(--petroleum500);
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -363,24 +361,24 @@ html, body {
 
 .benefits-anchor {
     margin-top: 32px;
-    font-size: 16px;
+    font-size: 24px;
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
     font-weight: bold;
-    color: var(--petroleum500);
-    background-color: var(--cerulean200);
-    width: 264px;
+    color: var(--neutralgray);
+    background-color: var(--cerulean600);
+    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
 }
 
 .benefits-anchor:hover {
-    background-color: var(--cerulean400);
-    box-shadow: 0px 0px 8px var(--cerulean600);
+    background-color: var(--cerulean800);
+    box-shadow: 0px 0px 8px var(--cerulean800);
     transition-duration: 0.2s;
 }
 
@@ -404,8 +402,7 @@ html, body {
 /* WHO-SECTION ↓ */
 
 .who-section {
-    color: var(--neutralgray);
-    background-color: var(--petroleum700);
+    background-color: var(--cerulean100);
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -438,24 +435,24 @@ html, body {
 
 .who-anchor {
     margin-top: 32px;
-    font-size: 16px;
+    font-size: 24px;
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
     font-weight: bold;
-    color: var(--petroleum500);
-    background-color: var(--cerulean200);
-    width: 264px;
+    color: var(--neutralgray);
+    background-color: var(--cerulean600);
+    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
 }
 
 .who-anchor:hover {
-    background-color: var(--cerulean400);
-    box-shadow: 0px 0px 8px var(--cerulean600);
+    background-color: var(--cerulean800);
+    box-shadow: 0px 0px 8px var(--cerulean800);
     transition-duration: 0.2s;
 }
 
@@ -524,24 +521,24 @@ html, body {
 
 .social-anchor {
     margin-top: 32px;
-    font-size: 16px;
+    font-size: 24px;
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
     font-weight: bold;
-    color: var(--petroleum500);
-    background-color: var(--cerulean200);
-    width: 264px;
+    color: var(--neutralgray);
+    background-color: var(--cerulean600);
+    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
 }
 
 .social-anchor:hover {
-    background-color: var(--cerulean400);
-    box-shadow: 0px 0px 8px var(--cerulean600);
+    background-color: var(--cerulean800);
+    box-shadow: 0px 0px 8px var(--cerulean800);
     transition-duration: 0.2s;
 }
 
@@ -565,8 +562,7 @@ html, body {
 /* MEET SECTION ↓ */
 
 .meet-section {
-    color: var(--neutralgray);
-    background-color: var(--cerulean900);
+    background-color: var(--cerulean100);
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -594,24 +590,24 @@ html, body {
 
 .meet-anchor {
     margin-top: 32px;
-    font-size: 16px;
+    font-size: 24px;
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
     font-weight: bold;
-    color: var(--petroleum500);
-    background-color: var(--cerulean200);
-    width: 264px;
+    color: var(--neutralgray);
+    background-color: var(--cerulean600);
+    width: 360px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
 }
 
 .meet-anchor:hover {
-    background-color: var(--cerulean400);
-    box-shadow: 0px 0px 8px var(--cerulean600);
+    background-color: var(--cerulean800);
+    box-shadow: 0px 0px 8px var(--cerulean800);
     transition-duration: 0.2s;
 }
 
@@ -640,8 +636,8 @@ html, body {
     position: relative;
 
     border-radius: 10px;
-    background-image: linear-gradient(100deg, var(--petroleum400), var(--petroleum600));
-    box-shadow: 0px 0px 8px var(--petroleum500);
+    background-image: linear-gradient(100deg, var(--cerulean500), var(--cerulean600));
+    box-shadow: 0px 0px 8px var(--cerulean500);
 }
 
 .meet-poster img {
