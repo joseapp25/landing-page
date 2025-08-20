@@ -714,10 +714,12 @@ html, body {
 /*FOOTER ↓ */
 
 footer {
+    color: var(--graycool0);
+    background-image: linear-gradient(to right, var(--graycool1000), var(--graycool900));
     padding-top: 32px;
     padding-bottom: 32px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .footer-copyright-container {
@@ -737,6 +739,12 @@ footer {
 footer img {
     display: flex;
     justify-content: center;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
 }
 
 /*FOOTER ↑ */
