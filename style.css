@@ -716,8 +716,8 @@ html, body {
 footer {
     color: var(--graycool0);
     background-image: linear-gradient(to right, var(--graycool1000), var(--graycool900));
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-size: 16px;
     font-weight: 300;
 }
@@ -729,7 +729,7 @@ footer {
 }
 
 .footer-logo-container {
-    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .footer-text-container {
@@ -742,10 +742,10 @@ footer img {
 }
 
 .social-media-container {
-    gap: 4px;
+    gap: 8px;
     display: flex;
     justify-content: center;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 /*FOOTER ↑ */
