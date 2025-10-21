@@ -113,6 +113,7 @@ html, body {
     padding: 4px;
     cursor: pointer;
     align-items: center;
+    transition-duration: 0.2s;
 }
 
 .contacts-link:hover {
@@ -223,6 +224,7 @@ html, body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
+    transition-duration: 0.2s;
 }
 
 .headline-anchor:hover {
@@ -306,6 +308,7 @@ html, body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
+    transition-duration: 0.2s;
 }
 
 .hero-anchor:hover {
@@ -398,6 +401,7 @@ html, body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
+    transition-duration: 0.2s;
 }
 
 .benefits-anchor:hover {
@@ -477,6 +481,7 @@ html, body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
+    transition-duration: 0.2s;
 }
 
 .who-anchor:hover {
@@ -567,6 +572,7 @@ html, body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
+    transition-duration: 0.2s;
 }
 
 .social-anchor:hover {
@@ -641,6 +647,7 @@ html, body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-radius: 8px;
+    transition-duration: 0.2s;
 }
 
 .meet-anchor:hover {
