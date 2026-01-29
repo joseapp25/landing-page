@@ -718,27 +718,7 @@ html, body {
 
 
 
-/* FOOTER, MOVE TO TOP, CONTACTS ↓ */
-
-.move-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 3px;
-    background-color: var(--cerulean100);
-    fill: var(--graycool800);
-    box-shadow: 0px 0px 4px var(--graycool600);
-    transition-duration: 0.2s;
-}
-
-.move-to-top:hover {
-    background-color: var(--cerulean500);
-    transition-duration: 0.2s;
-    fill: var(--graycool0);
-}
+/* FOOTER, CONTACTS ↓ */
 
 .contacts-container {
     gap: 8px;
@@ -748,11 +728,14 @@ html, body {
 }
 
 .contacts-link {
+    height: 24px;
+    width: 24px;
     border-radius: 4px;
     padding: 4px;
     cursor: pointer;
     align-items: center;
     transition-duration: 0.2s;
+    fill: var(--cerulean600);
 }
 
 .contacts-link:hover {
@@ -768,6 +751,7 @@ html, body {
     font-size: 16px;
     padding-top: 40px;
     padding-bottom: 40px;
+
 }
 
 .footer-copyright-container {
@@ -784,9 +768,12 @@ html, body {
     margin-left: 2px;
 }
 
-.footer-style img {
+.footer-logo {
     display: flex;
     justify-content: center;
+    height: 40px;
+    width: 40px;
+    fill: var(--cerulean100);
 }
 
-/* FOOTER, MOVE TO TOP, CONTACTS ↑ */
+/* FOOTER, CONTACTS ↑ */
