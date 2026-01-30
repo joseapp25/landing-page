@@ -82,7 +82,6 @@ html, body {
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100vw;
     height: 64px;
     top: 0;
@@ -91,11 +90,24 @@ html, body {
     z-index: 1;
 }
 
+.global-menu-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .global-menu-container {
+        max-width: 600px;
+    }
+}
+
 .global-menu-logo-container {
     gap: 8px;
     display: flex;
     align-items: center;
-    padding-left: 40px;
 }
 
 
@@ -109,7 +121,6 @@ html, body {
     gap: 4px;
     display: flex;
     align-items: center;
-    padding-right: 56px;
 }
 
 .global-menu-anchor {
