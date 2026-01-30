@@ -76,65 +76,68 @@ html, body {
 
 
 
+/* HEADER & GLOBAL MENU ↓ */
 
-
-
-
-
-/* HEADER ↓ */
-
-.header-content {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-left: auto;
-    margin-right: auto;
+.global-menu {
+    position: fixed;
     display: flex;
     align-items: center;
-    gap: 8px;
-    max-width: 80vw;
+    justify-content: space-between;
+    width: 100vw;
+    height: 64px;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 0px 4px var(--graycool200);
+    z-index: 1;
 }
 
-.header-title {
-    color: var(--cerulean400);
+.global-menu-logo-container {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+
+.global-menu h1 {
     font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
+    font-weight: 600;
+    color: var(--cerulean700);
 }
 
-@media only screen and (min-width: 600px) {
-    .header-content {
-        max-width: none;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
-}
-
-.header-content > a {
-    display: flex;
-    margin-left: auto;
-}
-
-@media only screen and (min-width: 600px) {
-    .header-content > a {
-        padding-right: 32px;
-    }
-    
-}
-
-.header-contacts {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-    gap: 8px;
-}
-
-.header-contacts a {
+.global-menu-anchor-container {
+    gap: 4px;
     display: flex;
     align-items: center;
+    padding-right: 56px;
 }
 
-/* HEADER ↑ */
+.global-menu-anchor {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    align-items: center;
+    transition-duration: 0.2s;
+    fill: var(--cerulean600);
+
+}
+
+.global-menu-anchor:hover {
+    background-color: var(--cerulean100);
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 4px var(--cerulean300);
+}
+
+.global-menu-logo {
+    width: 32px;
+    height: 32px;
+    fill: var(--cerulean600);
+}
+
+/* HEADER & GLOBAL MENU ↑ */
 
 
 
@@ -187,6 +190,7 @@ html, body {
 
 .headline-section {
     padding-bottom: 80px;
+    padding-top: 64px;
 }
 
 .headline-section-content {
@@ -721,7 +725,7 @@ html, body {
 /* FOOTER, CONTACTS ↓ */
 
 .contacts-container {
-    gap: 8px;
+    gap: 4px;
     display: flex;
     justify-content: center;
     margin-bottom: 16px;
