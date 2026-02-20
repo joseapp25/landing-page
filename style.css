@@ -303,8 +303,20 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 32px;
-    box-shadow: 0px 0px 4px var(--cerulean400);
+    box-shadow: 0px 0px 4px var(--graycool200);
     border-radius: 4px;
+}
+
+.hero-banner {
+    max-width: 600px;
+    max-height: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-banner {
+        max-width: 320px;
+        max-height: 320px;
+    }
 }
 
 .hero-section-content {
@@ -361,18 +373,6 @@ html, body {
 @media only screen and (min-width: 600px) {
     .hero-anchor {
         max-width: 360px;
-    }
-}
-
-.imagem-teste {
-    max-width: 600px;
-    max-height: 600px;
-}
-
-@media only screen and (max-width: 600px) {
-    .imagem-teste {
-        max-width: 320px;
-        max-height: 320px;
     }
 }
 
