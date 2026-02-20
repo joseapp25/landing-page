@@ -76,6 +76,11 @@ html, body {
 
 
 
+
+
+
+
+
 /* HEADER & GLOBAL MENU ↓ */
 
 .global-menu {
@@ -110,12 +115,11 @@ html, body {
     align-items: center;
 }
 
-
 .global-menu h1 {
     font-size: 16px;
     font-weight: 600;
     line-height: 18px;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--graycool800);
 }
 
@@ -135,19 +139,31 @@ html, body {
     align-items: center;
     transition-duration: 0.2s;
     fill: var(--cerulean600);
-
 }
 
 .global-menu-anchor:hover {
-    background-color: var(--cerulean100);
+    background-color: var(--cerulean600);
     transition-duration: 0.2s;
-    box-shadow: 0px 0px 4px var(--cerulean300);
+    box-shadow: 0px 0px 4px var(--cerulean800);
+    fill: var(--graycool50);
 }
 
 .global-menu-logo {
     width: 40px;
     height: 40px;
     fill: var(--cerulean600);
+    padding: 4px;
+    transition-duration: 0.2s;
+    border-radius: 4px;
+}
+
+.global-menu-logo:hover {
+    background-color: var(--cerulean600);
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 4px var(--cerulean800);
+    fill: var(--graycool50);
+    padding: 4px;
+    transition-duration: 0.2s;
 }
 
 /* HEADER & GLOBAL MENU ↑ */
@@ -756,9 +772,10 @@ html, body {
 }
 
 .contacts-link:hover {
-    background-color: var(--cerulean100);
+    background-color: var(--cerulean600);
     transition-duration: 0.2s;
-    box-shadow: 0px 0px 4px var(--cerulean300);
+    box-shadow: 0px 0px 4px var(--cerulean800);
+    fill: var(--graycool50);
 }
 
 .footer-style {
