@@ -376,6 +376,13 @@ html, body {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .imagem-teste {
+        width: 320px;
+        height: 320px;
+    }
+}
+
 /* HERO SECTION ↑ */
 
 
