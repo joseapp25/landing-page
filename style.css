@@ -110,14 +110,18 @@ html, body {
 }
 
 .global-menu-logo-container {
-    gap: 8px;
+    gap: 4px;
     display: flex;
     align-items: center;
 }
 
+.global-menu-logo-container-anchor {
+    display: flex;
+}
+
 .global-menu h1 {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 500;
     line-height: 18px;
     font-weight: 500;
     color: var(--graycool800);
