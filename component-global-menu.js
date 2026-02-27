@@ -21,7 +21,7 @@ class ComponentGlobalMenu extends HTMLElement{
 
                         </a>
 
-                        <h1>@phoneticando</h1>
+                        <h1><a class="global-menu-phoneticando" href="#">@phoneticando</a></h1>
 
                     </div>
 

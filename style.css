@@ -121,10 +121,27 @@ html, body {
 
 .global-menu h1 {
     font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    font-weight: 500;
+    font-weight: 900;
     color: var(--graycool800);
+}
+
+.global-menu-phoneticando {
+    text-decoration: none;
+    color: var(--cerulean600);
+    transition-duration: 0.2s;
+}
+
+.global-menu-phoneticando:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: var(--cerulean400);
+    transition-duration: 0.2s;
+}
+
+@media only screen and (min-width: 600px) {
+    .global-menu h1 {
+        font-size: 16px;
+    }
 }
 
 .global-menu-anchor-container {
@@ -153,8 +170,8 @@ html, body {
 }
 
 .global-menu-logo {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     fill: var(--cerulean600);
     padding: 4px;
     transition-duration: 0.2s;
