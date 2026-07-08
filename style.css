@@ -68,8 +68,8 @@ html, body {
 /* ROOT STYLE ↑ */
 
 html, body {
-    color: var(--graycool800);
-    background-color: var(--graycool0);
+    color: var(--graycool0);
+    background-color: var(--graycool1000);
     font-family: var(--font-dm-sans);
     scroll-behavior: smooth;
 }
@@ -77,7 +77,6 @@ html, body {
 .pic-style {
     width: 180px;
     height: 180px;
-    box-shadow: 0px 0px 8px var(--graycool600);
     border-radius: 999px;
     margin-bottom: 16px;
 }
@@ -93,8 +92,6 @@ html, body {
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
-    box-shadow: 0px 0px 8px var(--graycool200);
     padding: 24px;
     border-radius: 8px;
     text-align: center;
@@ -109,7 +106,7 @@ html, body {
 .text-style {
     font-size: 16px;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .anchor-style {
